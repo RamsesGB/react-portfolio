@@ -3,7 +3,7 @@ import React from "react";
 function AboutMe() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <p>
         My name is Ramses, I was born and raised in Colombia. Music production
         software was what initially peaked my curiosity for software
