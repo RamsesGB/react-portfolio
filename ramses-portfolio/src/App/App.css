@@ -38,6 +38,12 @@
   margin: 5% 0%;
 }
 
+.Header-Icon {
+  width: 126px;
+  height: auto;
+  margin-left: 33%;
+}
+
 .App-header h1 {
   margin: 0% 0% 4% 0%;
 }
@@ -104,6 +110,10 @@ nav a {
   flex-direction: row;
 }
 
+.Skill-Icon-Box {
+  margin: 6% 0% 0% 0%;
+}
+
 .Skill-Icon-Grid {
   display: flex;
   flex-flow: row wrap;
@@ -111,6 +121,10 @@ nav a {
 
 .Icon-Style {
   width: 25%;
+}
+
+.Icon-Row-1 {
+  margin-bottom: 5%;
 }
 
 .Icon-Img {

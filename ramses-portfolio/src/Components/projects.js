@@ -14,7 +14,7 @@ function Projects() {
             React, React Hooks, Node.Js/Express, SQlite3, Styled-Components,
             Bcrypt
           </p>
-          <a href="#" className="SeeCode-Btn">
+          <a href="https://github.com/wanderlust-bw/wanderlust-UI-Ramses" className="SeeCode-Btn">
             See Code
           </a>
         </div>
@@ -26,7 +26,7 @@ function Projects() {
             Stack: React, React Hooks, Node.Js/Express, SQlite3,
             Styled-Components, Bcrypt
           </p>
-          <a href="#" className="SeeCode-Btn">
+          <a href="https://github.com/luncher-lambda-buildweek/FrontEnd" className="SeeCode-Btn">
             See Code
           </a>
         </div>
@@ -38,7 +38,7 @@ function Projects() {
             React Hooks, Node.Js/Express, MongoDB, Materi-alUI, Passport,
             DigitalOcean
           </p>
-          <a href="#" className="SeeCode-Btn">
+          <a href="https://github.com/Lambda-School-Labs/best-places-to-live-fe/tree/labs15" className="SeeCode-Btn">
             See Code
           </a>
         </div>
