@@ -1,10 +1,11 @@
 import React from "react";
+import "../App/App.css";
 
 function Projects() {
   return (
     <div className="Projects-container Section">
       <h2>Projects</h2>
-      <div className="Projects-section">
+      <div className="Projects-Section">
         <div className="Project-box">
           <h3>Wanderlust</h3>
           <p>
@@ -13,6 +14,9 @@ function Projects() {
             React, React Hooks, Node.Js/Express, SQlite3, Styled-Components,
             Bcrypt
           </p>
+          <a href="#" className="SeeCode-Btn">
+            See Code
+          </a>
         </div>
         <div className="Project-box">
           <h3>Luncher</h3>
@@ -22,6 +26,9 @@ function Projects() {
             Stack: React, React Hooks, Node.Js/Express, SQlite3,
             Styled-Components, Bcrypt
           </p>
+          <a href="#" className="SeeCode-Btn">
+            See Code
+          </a>
         </div>
         <div className="Project-box">
           <h3>Let's Move!</h3>
@@ -31,6 +38,9 @@ function Projects() {
             React Hooks, Node.Js/Express, MongoDB, Materi-alUI, Passport,
             DigitalOcean
           </p>
+          <a href="#" className="SeeCode-Btn">
+            See Code
+          </a>
         </div>
       </div>
     </div>
