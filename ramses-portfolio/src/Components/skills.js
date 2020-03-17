@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div>
+    <div className="Section">
       <h2>Skills</h2>
       <h3>
         A collection of technologies I've grown fluent in and utilize in my day
