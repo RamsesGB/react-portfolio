@@ -5,8 +5,13 @@ function Header() {
   return (
     <div className="App-header">
       <h1>Ramses Bermudez</h1>
-      <h1>Fullstack Software Engineer.</h1>
-      <a className="Git-Link" href="https://github.com/RamsesGB">My Github</a>
+      <p>
+        Fullstack Software Engineer.
+        <br></br>
+        <a className="Git-Link" href="https://github.com/RamsesGB">
+          My Github
+        </a>
+      </p>
     </div>
   );
 }
