@@ -32,8 +32,8 @@
 .App-header {
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
+  justify-content: center;
   color: white;
   margin: 5% 0%;
 }
@@ -41,7 +41,7 @@
 .Header-Icon {
   width: 126px;
   height: auto;
-  margin-left: 33%;
+  margin: 0% 0% 10% 0%;
 }
 
 .App-header h1 {
@@ -64,6 +64,7 @@
   align-items: center;
   width: 74%;
   color: #636363;
+  border-radius: 0.5rem;
 }
 
 nav {
@@ -71,6 +72,8 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  border-radius: 0.5rem;
+
 }
 
 .Nav-Bar {

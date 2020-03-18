@@ -7,7 +7,6 @@ import HTMLIcon from "../images/HTMLIcon.png";
 import CSSIcon from "../images/CSSIcon.png";
 import LESSIcon from "../images/LESSIcon.png";
 import MongoDBIcon from "../images/MongoDBIcon.png";
-
 import "../App/App.css";
 
 function Skills() {
