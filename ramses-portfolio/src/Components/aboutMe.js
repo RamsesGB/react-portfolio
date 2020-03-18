@@ -4,7 +4,7 @@ import "../App/App.css";
 
 function AboutMe() {
   return (
-    <div className="AboutMe-Box Section">
+    <div id="About Me" className="AboutMe-Box Section">
       <div className="AboutMe-Content">
         <h2>About Me</h2>
         <p>

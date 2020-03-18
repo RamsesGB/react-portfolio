@@ -3,7 +3,7 @@ import "../App/App.css";
 
 function Projects() {
   return (
-    <div className="Projects-container Section">
+    <div id="Projects" className="Projects-container Section">
       <h2>Projects</h2>
       <div className="Projects-Section">
         <div className="Project-box">
