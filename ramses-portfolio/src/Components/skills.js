@@ -3,6 +3,10 @@ import NodeIcon from "../images/NodeIcon.png";
 import ReactIcon from "../images/ReactIcon.png";
 import JsIcon from "../images/icons8-javascript-96.png";
 import ReduxIcon from "../images/reduxLogo.png";
+import HTMLIcon from "../images/HTMLIcon.png";
+import CSSIcon from "../images/CSSIcon.png";
+import LESSIcon from "../images/LESSIcon.png";
+import MongoDBIcon from "../images/MongoDBIcon.png";
 import "../App/App.css";
 
 function Skills() {
@@ -15,37 +19,33 @@ function Skills() {
       </h3>
       <div className="Skill-Icon-Box">
         <ul className="Skill-Icon-Grid">
-          <li className="Icon-Style Icon-1">
-            <img alt="icon" src={NodeIcon} />
-            <h3>Node.js</h3>
+          <li className="Icon-Style Icon-Row-1 Icon-1">
+            <img className="Icon-Img" alt="icon" src={JsIcon} />
           </li>
-          <li className="Icon-Style Icon-2">
+          <li className="Icon-Style Icon-Row-1 Icon-2">
+            <img alt="icon" src={NodeIcon} />
+          </li>
+          <li className="Icon-Style Icon-Row-1 Icon-3">
+            <img className="Icon-Img" src={MongoDBIcon} />
+          </li>
+          <li className="Icon-Style Icon-Row-1 Icon-4">
+            <img className="Icon-Img" src={LESSIcon} />
+          </li>
+          <li className="Icon-Style Icon-5">
             <img className="Icon-Img" alt="icon" src={ReactIcon} />
             <h3>React</h3>
           </li>
-          <li className="Icon-Style Icon-3">
-            <img className="Icon-Img" alt="icon" src={JsIcon} />
-            <h3>Javascript</h3>
-          </li>
-          <li className="Icon-Style Icon-4">
+          <li className="Icon-Style Icon-6">
             <img className="Icon-Img" alt="icon" src={ReduxIcon} />
             <h3>Redux</h3>
           </li>
-          <li className="Icon-Style Icon-5">
-            <img />
+          <li className="Icon-Style Icon-7">
+            <img className="Icon-Img" src={HTMLIcon} />
             <h3>HTML5</h3>
           </li>
-          <li className="Icon-Style Icon-6">
-            <img />
-            <h3>CSS</h3>
-          </li>
-          <li className="Icon-Style Icon-7">
-            <img />
-            <h3>LESS</h3>
-          </li>
           <li className="Icon-Style Icon-8">
-            <img />
-            <h3>MongoDB</h3>
+            <img className="Icon-Img" src={CSSIcon} />
+            <h3>CSS</h3>
           </li>
         </ul>
       </div>
