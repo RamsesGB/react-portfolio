@@ -27,7 +27,7 @@ function Projects() {
             See Code
           </a>
         </div>
-        <div className="Project-box">
+        <div className="Project-box Luncher-box">
           <img className="Project-Img" alt="Project icon" src={LuncherIcon} />
           <h3>Luncher</h3>
           <p>

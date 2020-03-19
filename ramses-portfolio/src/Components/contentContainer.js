@@ -15,8 +15,7 @@ function contentContainer(){
       <AboutMe/>
       <Projects/>
       <Skills/>
-      <ContactMe/>
-      {/* <Footer/> */}
+      {/* <ContactMe/> */}
     </div>
   )
 }

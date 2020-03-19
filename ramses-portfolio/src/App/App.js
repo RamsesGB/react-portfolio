@@ -2,7 +2,8 @@ import React from "react";
 import "./App.css";
 import Header from "../Components/header"
 import ContentContainer from "../Components/contentContainer"
-import Footer from "../Components/footer";
+import ContactMe from "../Components/contactMe";
+
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Header/>
       <ContentContainer/>
-      <Footer/>
+      <ContactMe/>
     </div>
   ); 
 } 

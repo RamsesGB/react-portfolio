@@ -10,8 +10,6 @@
   padding: 5% 0%;
   width: 90%;
   border-bottom: 1px solid #dddddd;
-
-  /* border-color: #dddddd, white; */
 }
 
 .SeeCode-Btn {
@@ -55,14 +53,9 @@
   font-size: 2.3rem;
 }
 
-/* .App-header img {
-  width: 32px;
-  height: auto;
-} */
-
 .Git-Link {
   font-size: 2.3rem;
-text-align: center;
+  text-align: center;
 }
 
 .Git-Box img {
@@ -89,7 +82,6 @@ nav {
   justify-content: center;
   width: 100%;
   border-radius: 0.5rem;
-
 }
 
 .Nav-Bar {
@@ -114,9 +106,11 @@ nav a {
   width: 60%;
   text-align: justify;
 }
+
 .AboutMe-Content p {
   width: 90%;
 }
+
 .AboutMe-PicBox {
   width: 30%;
   padding-right: 5%;
@@ -137,6 +131,17 @@ nav a {
   margin-right: auto;
 }
 
+.Project-box {
+  width: 32%;
+  margin: auto;
+}
+
+.Luncher-box {
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  padding: 0% 1%;
+}
+
 .Projects-Section {
   display: flex;
   flex-direction: row;
@@ -145,6 +150,10 @@ nav a {
 
 .Project-box p {
   text-align: center;
+}
+
+.Project-box h3 {
+  margin-top: 10%;
 }
 
 .Project-Img {
@@ -174,6 +183,26 @@ nav a {
   height: 96px;
 }
 
-.Footer-Box {
+.Info-Box {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+  margin: auto;
+  padding-top: 4%;
+}
+
+.Info-Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+dt {
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.Contact-Box {
   color: white;
 }

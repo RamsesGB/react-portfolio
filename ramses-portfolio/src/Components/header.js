@@ -4,7 +4,6 @@ import PyramidIcon from "../images/pyramid.svg";
 import GitIcon from "../images/GitHub-Mark-Light-64px.png";
 
 function Header() {
-  let gitLink = "https://github.com/RamsesGB";
 
   return (
     <div className="App-header">
@@ -19,7 +18,7 @@ function Header() {
           My Github
         </a>
         <a href="https://github.com/RamsesGB">
-          <img src={GitIcon} />
+          <img src={GitIcon} alt="Github Icon" />
         </a>
       </div>
     </div>
