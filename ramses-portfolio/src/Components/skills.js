@@ -12,7 +12,7 @@ import "../App/App.css";
 function Skills() {
   return (
     <div id="Skills" className="Section">
-      <h2>Skills</h2>
+      <h2 className="Center-underline">Skills</h2>
       <h3>
         A collection of technologies I've grown fluent in and utilize in my day
         to day to create my best work.
