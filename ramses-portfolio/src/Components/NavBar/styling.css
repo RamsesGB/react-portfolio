@@ -1,0 +1,15 @@
+nav {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.Nav-Bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  margin: 1.5% 0%;
+}

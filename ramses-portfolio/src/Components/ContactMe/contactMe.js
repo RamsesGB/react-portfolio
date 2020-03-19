@@ -1,6 +1,8 @@
 import React from "react";
-import "../App/App.css";
-import Resume from "../images/Resume V.3 Ramses Bermudez.pdf";
+import Resume from "../../images/Resume V.3 Ramses Bermudez.pdf";
+import "../../App/App.css";
+import "./styling.css";
+
 
 function ContactMe() {
   return (

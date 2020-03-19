@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import NavBarItem from "./navBarItem";
-import "../App/App.css";
+import "../../App/App.css";
+import "./styling.css";
+
 
 class NavBar extends Component {
   constructor(props) {

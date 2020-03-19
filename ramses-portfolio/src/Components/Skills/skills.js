@@ -1,13 +1,15 @@
 import React from "react";
-import NodeIcon from "../images/NodeIcon.png";
-import ReactIcon from "../images/ReactIcon.png";
-import JsIcon from "../images/icons8-javascript-96.png";
-import ReduxIcon from "../images/reduxLogo.png";
-import HTMLIcon from "../images/HTMLIcon.png";
-import CSSIcon from "../images/CSSIcon.png";
-import LESSIcon from "../images/LESSIcon.png";
-import MongoDBIcon from "../images/MongoDBIcon.png";
-import "../App/App.css";
+import NodeIcon from "../../images/NodeIcon.png";
+import ReactIcon from "../../images/ReactIcon.png";
+import JsIcon from "../../images/icons8-javascript-96.png";
+import ReduxIcon from "../../images/reduxLogo.png";
+import HTMLIcon from "../../images/HTMLIcon.png";
+import CSSIcon from "../../images/CSSIcon.png";
+import LESSIcon from "../../images/LESSIcon.png";
+import MongoDBIcon from "../../images/MongoDBIcon.png";
+import "../../App/App.css";
+import "./styling.css";
+
 
 function Skills() {
   return (

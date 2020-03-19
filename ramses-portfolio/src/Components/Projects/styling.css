@@ -1,0 +1,52 @@
+.Projects-Section {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0%;
+}
+
+.Project-box {
+  width: 32%;
+  margin: auto;
+}
+
+.Project-box p {
+  text-align: center;
+}
+
+.Project-box h3 {
+  margin-top: 10%;
+}
+
+.Project-Img {
+  width: 198px;
+  height: auto;
+}
+
+.Center-underline:after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SeeCode-Btn {
+  background-color: #8cc9f0;
+  color: white;
+  border: 0;
+  padding: 0% 5%;
+  margin: 8% 0% 0% 0%;
+  font-size: 2.2rem;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  height: 2.75em;
+  line-height: 2.75em;
+}
+
+.Luncher-box {
+  border-right: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  padding: 0% 1%;
+}

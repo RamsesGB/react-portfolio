@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Header from "../Components/header"
-import ContentContainer from "../Components/contentContainer"
-import ContactMe from "../Components/contactMe";
+import Header from "../Components/Header/header"
+import ContentContainer from "../Components/ContentContainer/contentContainer"
+import ContactMe from "../Components/ContactMe/contactMe";
 
 
 

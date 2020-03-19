@@ -1,0 +1,29 @@
+.AboutMe-Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.AboutMe-Content {
+  width: 60%;
+  text-align: justify;
+}
+
+.AboutMe-Content p {
+  width: 90%;
+}
+
+.AboutMe-PicBox {
+  width: 30%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 100%;
+}
+
+.AboutMe-Pic {
+  width: 100%;
+  height: auto;
+  border-radius: 100%;
+}

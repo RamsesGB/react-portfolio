@@ -1,7 +1,8 @@
 import React from "react";
-import "../App/App.css";
-import PyramidIcon from "../images/pyramid.svg";
-import GitIcon from "../images/GitHub-Mark-Light-64px.png";
+import "../../App/App.css";
+import "./styling.css";
+import PyramidIcon from "../../images/pyramid.svg";
+import GitIcon from "../../images/GitHub-Mark-Light-64px.png";
 
 function Header() {
 
