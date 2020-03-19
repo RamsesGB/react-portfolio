@@ -9,6 +9,9 @@
 .Section {
   padding: 5% 0%;
   width: 90%;
+  border-bottom: 1px solid #dddddd;
+
+  /* border-color: #dddddd, white; */
 }
 
 .SeeCode-Btn {
@@ -52,8 +55,21 @@
   font-size: 2.3rem;
 }
 
+/* .App-header img {
+  width: 32px;
+  height: auto;
+} */
+
 .Git-Link {
   font-size: 2.3rem;
+text-align: center;
+}
+
+.Git-Box img {
+  width: 32px;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 4%;
 }
 
 .Content-container {
@@ -95,11 +111,19 @@ nav a {
 }
 
 .AboutMe-Content {
-  width: 50%;
+  width: 60%;
+  text-align: justify;
 }
-
+.AboutMe-Content p {
+  width: 90%;
+}
 .AboutMe-PicBox {
-  width: 20%;
+  width: 30%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 100%;
 }
 
 .AboutMe-Pic {
@@ -108,9 +132,24 @@ nav a {
   border-radius: 100%;
 }
 
+.Center-underline:after {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Projects-Section {
   display: flex;
   flex-direction: row;
+  margin: 5% 0%;
+}
+
+.Project-box p {
+  text-align: center;
+}
+
+.Project-Img {
+  width: 198px;
+  height: auto;
 }
 
 .Skill-Icon-Box {
@@ -133,4 +172,8 @@ nav a {
 .Icon-Img {
   width: 96px;
   height: 96px;
+}
+
+.Footer-Box {
+  color: white;
 }

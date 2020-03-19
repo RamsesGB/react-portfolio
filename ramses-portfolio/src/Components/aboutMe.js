@@ -8,10 +8,21 @@ function AboutMe() {
       <div className="AboutMe-Content">
         <h2>About Me</h2>
         <p>
-          My name is Ramses, I was born and raised in Colombia. Music production
-          software was what initially peaked my curiosity for software
-          engineering. I recently graduated from Lambda School which is a 9
-          month technical training program specializing in web dev and computer
+          Welcome! 
+          <br></br>
+          I'm Ramses, I was born and raised in Colombia. At an early
+          age I discovered my passion for technology and the visual + performing
+          arts. Through music production software I recognized the intersection
+          of these two interests and their potential for creating tools others
+          could use to unleash their creativity.
+          <br></br>
+          <br></br>
+          This realization motivated me to create products that would leverage
+          the power of tech to have a positive impact in my community and thus
+          began my mission to become a software engineer.
+          <br></br>
+          <br></br>I recently graduated from Lambda School which is a 9 month
+          technical training program specializing in web dev and computer
           science fundamentals, with a focus on group project work that mimics
           the product development lifecycle.
         </p>
