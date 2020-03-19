@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
-import Header from "../Components/header"
-import ContentContainer from "../Components/contentContainer"
-import Footer from "../Components/footer";
+import Header from "../Components/Header/header"
+import ContentContainer from "../Components/ContentContainer/contentContainer"
+import ContactMe from "../Components/ContactMe/contactMe";
+
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <Header/>
       <ContentContainer/>
-      <Footer/>
+      <ContactMe/>
     </div>
   ); 
 } 

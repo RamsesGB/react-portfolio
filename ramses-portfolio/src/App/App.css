@@ -10,66 +10,6 @@
   padding: 5% 0%;
   width: 90%;
   border-bottom: 1px solid #dddddd;
-
-  /* border-color: #dddddd, white; */
-}
-
-.SeeCode-Btn {
-  background-color: #8cc9f0;
-  color: white;
-  border: 0;
-  padding: 0% 5%;
-  margin: 8% 0% 0% 0%;
-  font-size: 2.2rem;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 300;
-  border-radius: 8px;
-  text-align: center;
-  text-decoration: none;
-  white-space: nowrap;
-  height: 2.75em;
-  line-height: 2.75em;
-}
-
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  margin: 5% 0%;
-}
-
-.Header-Icon {
-  width: 126px;
-  height: auto;
-  margin: 0% 0% 10% 0%;
-}
-
-.App-header h1 {
-  margin: 0% 0% 4% 0%;
-}
-
-.App-header p {
-  font-size: 2.3rem;
-}
-
-/* .App-header img {
-  width: 32px;
-  height: auto;
-} */
-
-.Git-Link {
-  font-size: 2.3rem;
-text-align: center;
-}
-
-.Git-Box img {
-  width: 32px;
-  height: auto;
-  margin-left: 5%;
-  margin-top: 4%;
 }
 
 .Content-container {
@@ -83,97 +23,11 @@ text-align: center;
   border-radius: 0.5rem;
 }
 
-nav {
-  background-color: #f7f7f7;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  border-radius: 0.5rem;
-
-}
-
-.Nav-Bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 50%;
-  margin: 1.5% 0%;
-}
-
 nav a {
   font-size: 1.8rem;
 }
 
-.AboutMe-Box {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.AboutMe-Content {
-  width: 60%;
-  text-align: justify;
-}
-.AboutMe-Content p {
-  width: 90%;
-}
-.AboutMe-PicBox {
-  width: 30%;
-  padding-right: 5%;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  border-radius: 100%;
-}
-
-.AboutMe-Pic {
-  width: 100%;
-  height: auto;
-  border-radius: 100%;
-}
-
-.Center-underline:after {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.Projects-Section {
-  display: flex;
-  flex-direction: row;
-  margin: 5% 0%;
-}
-
-.Project-box p {
-  text-align: center;
-}
-
-.Project-Img {
-  width: 198px;
-  height: auto;
-}
-
-.Skill-Icon-Box {
-  margin: 6% 0% 0% 0%;
-}
-
-.Skill-Icon-Grid {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.Icon-Style {
-  width: 25%;
-}
-
-.Icon-Row-1 {
-  margin-bottom: 5%;
-}
-
-.Icon-Img {
-  width: 96px;
-  height: 96px;
-}
-
-.Footer-Box {
-  color: white;
+dt {
+  font-weight: 400;
+  align-self: flex-start;
 }

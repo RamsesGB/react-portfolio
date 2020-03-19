@@ -1,6 +1,7 @@
 import React from "react";
-import IMG_0031 from "../images/IMG_0031.jpg";
-import "../App/App.css";
+import IMG_0031 from "../../images/IMG_0031.jpg";
+import "../../App/App.css";
+import "./styling.css";
 
 function AboutMe() {
   return (

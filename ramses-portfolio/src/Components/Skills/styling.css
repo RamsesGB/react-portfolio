@@ -1,0 +1,21 @@
+.Icon-Style {
+  width: 25%;
+}
+
+.Icon-Img {
+  width: 96px;
+  height: 96px;
+}
+
+.Icon-Row-1 {
+  margin-bottom: 5%;
+}
+
+.Skill-Icon-Box {
+  margin: 6% 0% 0% 0%;
+}
+
+.Skill-Icon-Grid {
+  display: flex;
+  flex-flow: row wrap;
+}

@@ -1,10 +1,9 @@
 import React from "react";
-import "../App/App.css";
-import WanderlustIcon from "../images/WanderlustIcon.svg";
-import LuncherIcon from "../images/LuncherIcon.svg";
-import LetsMoveIcon from "../images/LetsMoveIcon.svg";
-
-
+import "../../App/App.css";
+import "./styling.css";
+import WanderlustIcon from "../../images/WanderlustIcon.svg";
+import LuncherIcon from "../../images/LuncherIcon.svg";
+import LetsMoveIcon from "../../images/LetsMoveIcon.svg";
 
 function Projects() {
   return (
@@ -12,7 +11,11 @@ function Projects() {
       <h2 className="Center-underline">Projects</h2>
       <div className="Projects-Section">
         <div className="Project-box">
-          <img className="Project-Img" alt="Project icon" src={WanderlustIcon} />
+          <img
+            className="Project-Img"
+            alt="Project icon"
+            src={WanderlustIcon}
+          />
           <h3>Wanderlust</h3>
           <p>
             an online marketplace for booking or offering tour guides and
@@ -27,7 +30,7 @@ function Projects() {
             See Code
           </a>
         </div>
-        <div className="Project-box">
+        <div className="Project-box Luncher-box">
           <img className="Project-Img" alt="Project icon" src={LuncherIcon} />
           <h3>Luncher</h3>
           <p>

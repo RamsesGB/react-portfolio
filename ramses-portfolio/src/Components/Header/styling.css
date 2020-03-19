@@ -1,0 +1,35 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 5% 0%;
+}
+
+.Header-Icon {
+  width: 126px;
+  height: auto;
+  margin: 0% 0% 10% 0%;
+}
+
+.App-header h1 {
+  margin: 0% 0% 4% 0%;
+}
+
+.App-header p {
+  font-size: 2.3rem;
+}
+
+.Git-Link {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.Git-Box img {
+  width: 32px;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
