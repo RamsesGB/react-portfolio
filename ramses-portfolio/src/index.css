@@ -225,7 +225,8 @@ p {
 
 p,
 dt,
-dd {
+dd, 
+dd a {
   font-size: 1.86rem;
 }
 
