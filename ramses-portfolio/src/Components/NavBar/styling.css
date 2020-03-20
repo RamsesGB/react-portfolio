@@ -13,3 +13,9 @@ nav {
   width: 50%;
   margin: 1.5% 0%;
 }
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}

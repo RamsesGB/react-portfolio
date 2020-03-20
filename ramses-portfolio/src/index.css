@@ -144,6 +144,11 @@ body {
     linear-gradient(45deg, #000000 15%, #acdf9a 85%);
 }
 
+/* 
+ #acdf9a
+#42a871
+#c89b9d */
+
 a {
   -moz-transition: color 0.2s ease, border-bottom 0.2s ease;
   -webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
@@ -228,5 +233,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-/* #f0b74c */

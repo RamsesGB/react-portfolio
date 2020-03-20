@@ -19,3 +19,9 @@
   display: flex;
   flex-flow: row wrap;
 }
+
+@media (max-width: 768px) {
+  .Icon-Style {
+    width: 48%;
+  }
+}
