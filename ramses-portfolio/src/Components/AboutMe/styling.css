@@ -9,6 +9,10 @@
   text-align: justify;
 }
 
+.AboutMe-Content a {
+  color: #ec3944;
+}
+
 .AboutMe-Content p {
   width: 90%;
 }

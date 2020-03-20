@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../images/Resume V.3 Ramses Bermudez.pdf";
+import Resume from "../../images/Resume-Ramses-Bermudez.pdf";
 import "../../App/App.css";
 import "./styling.css";
 
@@ -19,7 +19,7 @@ function ContactMe() {
         </span>
         <span className="DD-Column">
           <dd>Miami, FL &bull; USA</dd>
-          <dd>gbmudez@gmail.com</dd>
+          <dd><a href="mailto: gbmudez@gmail.com">gbmudez@gmail.com</a></dd>
           <dd>(786) 309-0172</dd>
         </span>
       </div>
