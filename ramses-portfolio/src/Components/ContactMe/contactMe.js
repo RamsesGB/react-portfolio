@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../images/Resume V.3 Ramses Bermudez.pdf";
+import Resume from "../../images/Resume-Ramses-Bermudez.pdf";
 import "../../App/App.css";
 import "./styling.css";
 
