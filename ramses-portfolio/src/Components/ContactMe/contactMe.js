@@ -3,7 +3,6 @@ import Resume from "../../images/Resume V.3 Ramses Bermudez.pdf";
 import "../../App/App.css";
 import "./styling.css";
 
-
 function ContactMe() {
   return (
     <div id="Contact Me" className="Contact-Box Section">
@@ -13,19 +12,15 @@ function ContactMe() {
         engineering
       </h3>
       <div className="Info-Box">
-        <span className="Info-Row">
+        <span className="DT-Column">
           <dt>Location</dt>
-          <dd>Miami, FL &bull; USA</dd>
-        </span>
-        <span className="Info-Row">
-          <dt>Phone</dt>
-          <dd>(786) 309-0172</dd>
-        </span>
-        <span className="Info-Row">
           <dt>Email</dt>
-          <dd>
-            gbmudez@gmail.com
-          </dd>
+          <dt>Phone</dt>
+        </span>
+        <span className="DD-Column">
+          <dd>Miami, FL &bull; USA</dd>
+          <dd>gbmudez@gmail.com</dd>
+          <dd>(786) 309-0172</dd>
         </span>
       </div>
       <a href={Resume} className="SeeCode-Btn">

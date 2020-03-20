@@ -34,19 +34,19 @@ function Skills() {
             <img className="Icon-Img" alt="LESS icon" src={LESSIcon} />
           </li>
           <li className="Icon-Style Icon-5">
-            <img className="Icon-Img" alt="React icon" src={ReactIcon} />
+            <img className="Icon-Img" alt="React icon5" src={ReactIcon} />
             <h3>React</h3>
           </li>
           <li className="Icon-Style Icon-6">
-            <img className="Icon-Img" alt="Redux icon" src={ReduxIcon} />
+            <img className="Icon-Img" alt="Redux icon6" src={ReduxIcon} />
             <h3>Redux</h3>
           </li>
           <li className="Icon-Style Icon-7">
-            <img className="Icon-Img" alt="HTML icon" src={HTMLIcon} />
+            <img className="Icon-Img" alt="HTML icon7" src={HTMLIcon} />
             <h3>HTML5</h3>
           </li>
           <li className="Icon-Style Icon-8">
-            <img className="Icon-Img" alt="CSS Icon" src={CSSIcon} />
+            <img className="Icon-Img" alt="CSS Icon8" src={CSSIcon} />
             <h3>CSS</h3>
           </li>
         </ul>

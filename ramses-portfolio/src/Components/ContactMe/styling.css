@@ -1,16 +1,11 @@
 .Info-Box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 25%;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: auto;
   padding-top: 4%;
-}
-
-.Info-Row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  text-align: left;
 }
 
 .SeeCode-Btn {
@@ -18,7 +13,7 @@
   color: white;
   border: 0;
   padding: 0% 5%;
-  margin: 8% 0% 0% 0%;
+  margin: 7% 0% 0% 0%;
   font-size: 2.2rem;
   cursor: pointer;
   display: inline-block;
@@ -38,4 +33,28 @@
 
 .Contact-Box {
   color: white;
+}
+
+@media (max-width: 999px) {
+  .Info-Box {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 2rem;
+  }
+
+  .Info-Box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .SeeCode-Btn {
+    width: 80%;
+  }
 }

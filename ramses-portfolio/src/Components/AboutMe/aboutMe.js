@@ -7,7 +7,7 @@ function AboutMe() {
   return (
     <div id="About Me" className="AboutMe-Box Section">
       <div className="AboutMe-Content">
-        <h2>About Me</h2>
+        <h2 className="Mobile-Center-underline">About Me</h2>
         <p>
           Welcome! 
           <br></br>
